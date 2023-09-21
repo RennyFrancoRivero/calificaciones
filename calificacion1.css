@@ -18,6 +18,7 @@ body {
   text-align: center;
   width: 80%;
   max-width: 450px;
+  margin: 0 auto;
 }
 
 .tarjeta2 {
@@ -28,6 +29,7 @@ body {
   text-align: center;
   width: 100%;
   max-width: 447px;
+  margin: 0 auto;
 }
 
 .tarjeta3 {
@@ -38,6 +40,7 @@ body {
   text-align: center;
   width: 100%;
   max-width: 447px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -232,7 +235,8 @@ span {
   .tarjeta,
   .tarjeta2,
   .tarjeta3 {
-    width: 90%;
+    width: 95%; /* Ajuste al 95% del ancho de la pantalla */
     max-width: none;
   }
 }
+
