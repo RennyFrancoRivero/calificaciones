@@ -10,47 +10,28 @@ body {
   height: 100vh;
 }
 
-.tarjeta {
+/* Estilo para las tarjetas */
+.tarjeta, .tarjeta2, .tarjeta3 {
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
-  width: 80%;
+  width: 95%; /* Ajuste al 95% del ancho de la pantalla */
   max-width: 450px;
-  margin: 0 auto;
+  margin: 0 auto; /* Centra la tarjeta */
 }
 
-.tarjeta2 {
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  max-width: 447px;
-  margin: 0 auto;
-}
-
-.tarjeta3 {
-  background-color: white;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  text-align: center;
-  width: 100%;
-  max-width: 447px;
-  margin: 0 auto;
-}
-
+/* Estilo para el encabezado */
 h2 {
   margin-top: 0;
   color: #2980b9;
-  font-size: 70px;
+  font-size: 3em;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Estilo para el label */
 label {
   font-size: 30px;
   font-weight: bold;
@@ -59,6 +40,7 @@ label {
   color: #555;
 }
 
+/* Estilo para el span */
 span {
   font-size: 45px;
   font-weight: bold;
@@ -232,11 +214,8 @@ span {
 
 @media (max-width: 600px) {
   /* Ajuste de tamaño para las tarjetas */
-  .tarjeta,
-  .tarjeta2,
-  .tarjeta3 {
+  .tarjeta, .tarjeta2, .tarjeta3 {
     width: 95%; /* Ajuste al 95% del ancho de la pantalla */
     max-width: none;
   }
 }
-
