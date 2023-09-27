@@ -251,6 +251,7 @@ span {
   .tarjeta2 {
     width: 85vw; /* Utilizar toda la anchura disponible */
     max-width: none; /* No aplicar límite de ancho */
+     height: 90%;
   }
 
   .tarjeta3 {
